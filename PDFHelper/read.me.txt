@@ -1,0 +1,23 @@
+WELCOME TO PDF PAL
+
+PDF Pal allows you to concatenate multiple PDFs together that share a similar format.
+
+PDF Pal will group together PDFs of the same agent when filenames are properly formated in the following way with underscores (important)
+
+	X_Y_Z_N
+
+Where:
+
+	X = 7 Digit Agent Code
+	Y = Last Name 
+	Z = First Name
+	N = File identifier
+
+Examples:
+
+	1010101_Joe_Blue_2020_Cover
+	1010101_Joe_Blue_2020_Final_Data
+	1010101_Joe_Blue_2020_Farewell
+
+PDF Data should be held inside the "samples" folder located in the software folder. They should also be sorted alphabetically
+

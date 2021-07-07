@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="myPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack.Controller">
+   <children>
+      <Button fx:id="submit" layoutX="337.0" layoutY="344.0" mnemonicParsing="false" onAction="#suffSubmit" text="Submit" />
+      <TextField fx:id="pdfSuff1" layoutX="82.0" layoutY="119.0" promptText="2021_Example_Report" />
+      <TextField fx:id="pdfSuff2" layoutX="82.0" layoutY="155.0" promptText="2021_Example_Report" />
+      <TextField fx:id="pdfSuff3" layoutX="82.0" layoutY="193.0" promptText="2021_Example_Report" />
+      <TextField fx:id="finalSuffix" layoutX="39.0" layoutY="310.0" prefHeight="25.0" prefWidth="177.0" promptText="Final Merged Suffix Name" />
+      <Label layoutX="30.0" layoutY="14.0" prefHeight="17.0" prefWidth="213.0" text="Welcome to PDF Pal">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="41.0" prefHeight="17.0" prefWidth="541.0" text="Please read the Read.me file before proceeding." />
+      <Label layoutX="30.0" layoutY="94.0" prefHeight="17.0" prefWidth="541.0" text="2. Enter the PDF Suffixes in the order they are desired to be appended." />
+      <Button fx:id="browseButton" layoutX="299.0" layoutY="63.0" mnemonicParsing="false" onAction="#browseHit" text="Browse" />
+      <Label layoutX="29.0" layoutY="66.0" prefHeight="17.0" prefWidth="280.0" text="1. Locate the Folder where the PDF data is held. -&gt;" />
+      <Label layoutX="38.0" layoutY="348.0" prefHeight="17.0" prefWidth="309.0" text="3. Click &quot;Submit&quot; only after all information is filled.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="226.0" layoutY="314.0" prefHeight="17.0" prefWidth="130.0" text="Ex. 2021_Combined_File" />
+      <TextField fx:id="pdfSuff4" layoutX="82.0" layoutY="231.0" promptText="2021_Example_Report" />
+      <TextField fx:id="browseText" layoutX="361.0" layoutY="63.0" opacity="0.73" prefHeight="25.0" prefWidth="369.0" promptText="Waiting for folder..." />
+      <TextField fx:id="pdfSuff5" layoutX="82.0" layoutY="271.0" promptText="2021_Example_Report" />
+      <Label layoutX="32.0" layoutY="125.0" prefHeight="17.0" prefWidth="35.0" text="First" />
+      <Label layoutX="30.0" layoutY="160.0" prefHeight="17.0" prefWidth="66.0" text="Second" />
+      <Label layoutX="32.0" layoutY="197.0" prefHeight="17.0" prefWidth="35.0" text="Third" />
+      <Label layoutX="32.0" layoutY="233.0" prefHeight="17.0" prefWidth="66.0" text="Fourth" />
+      <Label layoutX="32.0" layoutY="275.0" prefHeight="17.0" prefWidth="66.0" text="Fifth" />
+      <Label layoutX="256.0" layoutY="197.0" prefHeight="17.0" prefWidth="335.0" text="If less than 5 PDFs are being used, leave spaces blank." />
+      <Label layoutX="264.0" layoutY="213.0" prefHeight="17.0" prefWidth="335.0" text="Ex. If 4 PDFs are being used, leave &quot;Fifth&quot; empty.">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="374.0" prefHeight="17.0" prefWidth="579.0" text="After clicking submit, you will be prompted to find your desired export folder">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="265.0" layoutY="158.0" prefHeight="17.0" prefWidth="450.0" text="Ex. 1001101_Joe_Blue_Cover_Letter , 1011011_Crystal_Heinz_Advanced_Report , etc.">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="123.0" prefHeight="17.0" prefWidth="513.0" text="Please format PDF filenames correctly with 7 digit ID, then name, then suffix.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="140.0" prefHeight="17.0" prefWidth="513.0" text="+ Seperated by underscores.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
