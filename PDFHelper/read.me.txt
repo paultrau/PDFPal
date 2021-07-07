@@ -15,9 +15,34 @@ Where:
 
 Examples:
 
-	1010101_Joe_Blue_2020_Cover
+	1010101_Joe_Blue_2020_The_Cover
 	1010101_Joe_Blue_2020_Final_Data
 	1010101_Joe_Blue_2020_Farewell
 
-PDF Data should be held inside the "samples" folder located in the software folder. They should also be sorted alphabetically
+PDF Data can be held inside the "samples" folder located in the software folder. They should also be sorted alphabetically
+	When the user hits "Browse" they are prompted to find the finder where the PDFs are held
+	This folder should ONLY hold PDFs to avoid confusion/bugs!
 
+The user is responsible for entering in the PDFs in the order they wish to have them appended.
+
+Using the past 3 examples:
+	"The_Cover" will appear last in Mr. Blue's list due to alpha ordering.
+	The user enters "The_Cover" (Without quotes) into the field that reads "FIRST", to ensure it goes first.
+	Then "Final_Data" in the field that reads "SECOND"
+	Then "Farewell" in the field that reads "THIRD"
+
+
+In the case where only certain agents have a fourth PDF or may only have 2 PDF, enter the MOST COMPLEX order possible, meaning the order with the most PDFs
+The program will automatically adjust for any combination.
+	Ex. Enter up to the field that reads "FOURTH" even when only a small percentage have the fourth PDF.
+			Do not worry if the fourth PDF is not located at the end, even if it the first PDF, it will still work!
+			
+	
+The user is also responsible for entering the desired name of the final output PDF
+	Ex. "Final_Combined_Report"
+
+Only after all data is entered can the user click submit, which then prompts the user to located the folder they wish to export the final PDFs into
+	If all is set up properly, the PDFs will append correctly.
+
+
+	
